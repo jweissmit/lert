@@ -96,7 +96,7 @@ int main(int argc, char **argv)
  */
     data.dsize = nd_c;
     if (dbm_store(db, key, data, DBM_REPLACE) < 0) {
-      fprintf(stderr, "dbm_store() failed: Entry = %d\n", key.dptr);
+      fprintf(stderr, "dbm_store() failed: Entry = %p\n", key.dptr);
       (void) dbm_clearerr(db);
     }
   }
