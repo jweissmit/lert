@@ -25,8 +25,8 @@
 /* where the data base and log are */
 #define LERTS_DATA   "/var/lib/lert/lertdata"
 #define LERTS_LOG    "/var/lib/lert/lertlog"
-#define LERTS_SRVTAB    "/etc/srvtab"
-#define LERTS_KEYTAB    "/etc/krb5.keytab"
+#define LERTS_SRVTAB    "/var/lib/lert/srvtab"
+#define LERTS_KEYTAB    "/var/lib/lert/krb5.keytab"
 
 /* the base name of the displayed files */
 #define LERTS_MSG_FILES   "/afs/athena/system/config/lert/lert"
